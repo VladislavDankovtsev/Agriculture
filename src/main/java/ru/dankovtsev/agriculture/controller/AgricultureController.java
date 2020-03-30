@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import ru.dankovtsev.agriculture.model.Agriculture;
 import ru.dankovtsev.agriculture.repository.AgriculureRepository;
+import ru.dankovtsev.agriculture.service.AgricultreServiceConfig;
 import ru.dankovtsev.agriculture.service.AgricultureService;
 
 import java.time.LocalDate;
@@ -21,14 +22,13 @@ public class AgricultureController {
     //private AgriculureRepository agriculureRepository;
 
     @Autowired
-    private AgricultureService agricultureService;
+    private AgricultreServiceConfig agricultureServiceConfig;
 
 
     @RequestMapping(path = "/online", method = RequestMethod.GET)
     public Agriculture getAgricultureNow(){
 
-        //List<Agriculture> agricultureList = agriculureRepository.findAll();
-        return agricultureService.onlineSystem();
+        return agricultureServiceConfig.getAgriculture();
     }
 
 }
