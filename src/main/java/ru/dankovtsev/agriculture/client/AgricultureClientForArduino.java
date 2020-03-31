@@ -16,7 +16,7 @@ import static ru.dankovtsev.agriculture.other.UrlSmartCityModule.URL_TEMPERATURE
 @Service
 public class AgricultureClientForArduino {
     @Autowired
-    UUIDRandom uuidRandom;
+    private UUIDRandom uuidRandom;
 
     public SoilMoisture onlineSoilMoisture() {
         //HttpEntity<Agriculture> entity = new HttpEntity<Agriculture>();

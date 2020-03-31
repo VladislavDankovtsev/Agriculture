@@ -13,21 +13,22 @@ import ru.dankovtsev.agriculture.repository.TemperatureAndHumidityRepository;
 
 @Configuration
 @EnableScheduling
-public class AgricultreServiceConfig {
+public class AgricultureServiceConfig {
     public static Agriculture agriculture;
 
     @Autowired
-    AgricultureService agricultureService;
+    private AgricultureService agricultureService;
 
     @Autowired
-    AgriculureRepository agriculureRepository;
+    private AgriculureRepository agriculureRepository;
     @Autowired
-    SoilMoistureRepository soilMoistureRepository;
+    private SoilMoistureRepository soilMoistureRepository;
     @Autowired
-    TemperatureAndHumidityRepository temperatureAndHumidityRepository;
+    private TemperatureAndHumidityRepository temperatureAndHumidityRepository;
 
     @Scheduled(fixedDelay = 10000)
     public void scheduleFixinformationinBD() {
+        try{
         agriculture = agricultureService.onlineSystem();
         SoilMoisture soilMoisture = agriculture.getSoilMoisture();
         TemperatureAndHumidity temperatureAndHumidity = agriculture.getTemperatureAndHumidity();
@@ -40,7 +41,10 @@ public class AgricultreServiceConfig {
         if (agriculture!=null){
             agriculureRepository.save(agriculture);
         }
-        System.out.println("SAVE");
+        System.out.println("SAVE");}
+        catch (Exception e){
+            System.out.println("нет соединения с arduino");
+        }
     }
 
     public Agriculture getAgriculture(){
