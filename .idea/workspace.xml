@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e793c413-f54d-4f80-ac82-4a279f41dfca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/CheckConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/controller/AgricultureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/controller/AgricultureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/agriculture/controller/AgricultureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/agriculture/controller/AgricultureController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/SoilMoisture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/SoilMoisture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/TemperatureAndHumidity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/TemperatureAndHumidity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../arduinoImitation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../production" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -95,7 +94,19 @@
       <workItem from="1585580557753" duration="4844000" />
       <workItem from="1585647792614" duration="3362000" />
       <workItem from="1585656157728" duration="1215000" />
-      <workItem from="1585823890552" duration="1352000" />
+      <workItem from="1585823890552" duration="3126000" />
+      <workItem from="1585918630220" duration="12000" />
+      <workItem from="1586099015896" duration="315000" />
+      <workItem from="1587121244443" duration="1189000" />
+      <workItem from="1587139370704" duration="830000" />
+      <workItem from="1587326543892" duration="89000" />
+      <workItem from="1587328030284" duration="352000" />
+      <workItem from="1587389444608" duration="597000" />
+      <workItem from="1587458270067" duration="2141000" />
+      <workItem from="1587580831505" duration="32000" />
+      <workItem from="1587978853655" duration="1104000" />
+      <workItem from="1589492684097" duration="157000" />
+      <workItem from="1589728982226" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="автоматическое добавление данных в бд, и отдача последних полученных данных от сервера, взаимосвязь с прототивны сервером, автоматическая фиксация времени и назначения id">
       <created>1585569541583</created>
@@ -104,15 +115,36 @@
       <option name="project" value="LOCAL" />
       <updated>1585569541583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="проверка соединения с сервером">
+      <created>1585826369898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585826369898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="автоматическое добавление данных в бд, и отдача последних полученных данных от сервера, взаимосвязь с прототивны сервером, автоматическая фиксация времени и назначения id" />
-    <option name="LAST_COMMIT_MESSAGE" value="автоматическое добавление данных в бд, и отдача последних полученных данных от сервера, взаимосвязь с прототивны сервером, автоматическая фиксация времени и назначения id" />
+    <MESSAGE value="проверка соединения с сервером" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверка соединения с сервером" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584896514703">
@@ -127,50 +159,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="678" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1584894298164" />
-    <state x="-12" y="0" key="CommitChangelistDialog2" timestamp="1585652007928">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585826367896">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-12" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585652007928" />
-    <state x="128" y="119" key="FileChooserDialogImpl" timestamp="1585658230077">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585826367896" />
+    <state x="128" y="119" key="FileChooserDialogImpl" timestamp="1586099026867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="128" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585658230077" />
-    <state width="637" height="228" key="GridCell.Tab.0.bottom" timestamp="1585826153995">
+    <state x="128" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586099026867" />
+    <state width="637" height="212" key="GridCell.Tab.0.bottom" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585826153995" />
-    <state width="637" height="228" key="GridCell.Tab.0.center" timestamp="1585826153994">
+    <state width="637" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state width="637" height="212" key="GridCell.Tab.0.center" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585826153994" />
-    <state width="637" height="228" key="GridCell.Tab.0.left" timestamp="1585826153991">
+    <state width="637" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state width="637" height="212" key="GridCell.Tab.0.left" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585826153991" />
-    <state width="637" height="228" key="GridCell.Tab.0.right" timestamp="1585826153994">
+    <state width="637" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state width="637" height="212" key="GridCell.Tab.0.right" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585826153994" />
-    <state width="637" height="228" key="GridCell.Tab.1.bottom" timestamp="1585826153996">
+    <state width="637" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state width="637" height="212" key="GridCell.Tab.1.bottom" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585826153996" />
-    <state width="637" height="228" key="GridCell.Tab.1.center" timestamp="1585826153995">
+    <state width="637" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state width="637" height="212" key="GridCell.Tab.1.center" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585826153995" />
-    <state width="637" height="228" key="GridCell.Tab.1.left" timestamp="1585826153995">
+    <state width="637" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state width="637" height="212" key="GridCell.Tab.1.left" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585826153995" />
-    <state width="637" height="228" key="GridCell.Tab.1.right" timestamp="1585826153995">
+    <state width="637" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state width="637" height="212" key="GridCell.Tab.1.right" timestamp="1589730481283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="228" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585826153995" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585657516549">
+    <state width="637" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587466724626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585657516549" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587466724626" />
     <state x="112" y="63" key="new project wizard" timestamp="1585647829972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
