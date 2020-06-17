@@ -8,7 +8,6 @@ import ru.dankovtsev.agriculture.model.SoilMoisture;
 import ru.dankovtsev.agriculture.model.TemperatureAndHumidity;
 import ru.dankovtsev.agriculture.uuid.UUIDRandom;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Service

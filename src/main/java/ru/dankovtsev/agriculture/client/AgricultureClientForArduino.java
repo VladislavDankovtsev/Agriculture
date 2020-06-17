@@ -19,7 +19,7 @@ public class AgricultureClientForArduino {
     private UUIDRandom uuidRandom;
 
     public SoilMoisture onlineSoilMoisture() {
-        //HttpEntity<Agriculture> entity = new HttpEntity<Agriculture>();
+
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<SoilMoisture> responseEntity = restTemplate.getForEntity(URL_SOIL_MOISTURE_ONLINE,
                 SoilMoisture.class);
@@ -30,7 +30,7 @@ public class AgricultureClientForArduino {
     }
 
     public TemperatureAndHumidity onlineTemperatureAndHumidity() {
-        //HttpEntity<Agriculture> entity = new HttpEntity<Agriculture>();
+
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<TemperatureAndHumidity> responseEntity = restTemplate.getForEntity(URL_TEMPERATURE_AND_HUMIDITY_ONLINE,
                 TemperatureAndHumidity.class);

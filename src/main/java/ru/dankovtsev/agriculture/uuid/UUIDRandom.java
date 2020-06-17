@@ -8,8 +8,6 @@ import java.util.UUID;
 public class UUIDRandom {
     public UUID randomkey() {
         UUID uuid = UUID.randomUUID();
-        //String randomUUIDString = uuid.toString();
-        //System.out.println("UUID=" + randomUUIDString );
-        return uuid;
+         return uuid;
     }
 }

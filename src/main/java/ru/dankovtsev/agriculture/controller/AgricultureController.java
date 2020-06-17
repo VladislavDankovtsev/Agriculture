@@ -12,8 +12,6 @@ import ru.dankovtsev.agriculture.service.AgricultureServiceConfig;
 @RestController
 @RequestMapping("/agricalture")
 public class AgricultureController {
-    //@Autowired
-    //private AgriculureRepository agriculureRepository;
 
     @Autowired
     private AgricultureServiceConfig agricultureServiceConfig;

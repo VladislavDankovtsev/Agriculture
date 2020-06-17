@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e793c413-f54d-4f80-ac82-4a279f41dfca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/client/AgricultureClientForArduino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/client/AgricultureClientForArduino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/controller/AgricultureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/controller/AgricultureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/Agriculture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/Agriculture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/SoilMoisture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/SoilMoisture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/TemperatureAndHumidity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/TemperatureAndHumidity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/service/AgricultureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/service/AgricultureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/uuid/UUIDRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/uuid/UUIDRandom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +112,12 @@
       <workItem from="1587978853655" duration="1104000" />
       <workItem from="1589492684097" duration="157000" />
       <workItem from="1589728982226" duration="964000" />
+      <workItem from="1589735534747" duration="36000" />
+      <workItem from="1589919692138" duration="19000" />
+      <workItem from="1589919720196" duration="2710000" />
+      <workItem from="1589988333777" duration="664000" />
+      <workItem from="1590074537954" duration="1817000" />
+      <workItem from="1590338051907" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="автоматическое добавление данных в бд, и отдача последних полученных данных от сервера, взаимосвязь с прототивны сервером, автоматическая фиксация времени и назначения id">
       <created>1585569541583</created>
@@ -122,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585826369898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="обновление наименований таблиц">
+      <created>1589735558850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589735558850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +162,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="автоматическое добавление данных в бд, и отдача последних полученных данных от сервера, взаимосвязь с прототивны сервером, автоматическая фиксация времени и назначения id" />
     <MESSAGE value="проверка соединения с сервером" />
-    <option name="LAST_COMMIT_MESSAGE" value="проверка соединения с сервером" />
+    <MESSAGE value="обновление наименований таблиц" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновление наименований таблиц" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584896514703">
@@ -159,53 +178,65 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="678" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1584894298164" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585826367896">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1589735556348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585826367896" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589735556348" />
     <state x="128" y="119" key="FileChooserDialogImpl" timestamp="1586099026867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="128" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586099026867" />
-    <state width="637" height="212" key="GridCell.Tab.0.bottom" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.0.bottom" timestamp="1592436481981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state width="637" height="212" key="GridCell.Tab.0.center" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592436481981" />
+    <state width="637" height="211" key="GridCell.Tab.0.center" timestamp="1592436481981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state width="637" height="212" key="GridCell.Tab.0.left" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592436481981" />
+    <state width="637" height="211" key="GridCell.Tab.0.left" timestamp="1592436481980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state width="637" height="212" key="GridCell.Tab.0.right" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592436481980" />
+    <state width="637" height="211" key="GridCell.Tab.0.right" timestamp="1592436481981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state width="637" height="212" key="GridCell.Tab.1.bottom" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592436481981" />
+    <state width="637" height="211" key="GridCell.Tab.1.bottom" timestamp="1589995450576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state width="637" height="212" key="GridCell.Tab.1.center" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589995450576" />
+    <state width="637" height="211" key="GridCell.Tab.1.center" timestamp="1589995450575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state width="637" height="212" key="GridCell.Tab.1.left" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589995450575" />
+    <state width="637" height="211" key="GridCell.Tab.1.left" timestamp="1589995450575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state width="637" height="212" key="GridCell.Tab.1.right" timestamp="1589730481283">
+    <state width="637" height="211" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589995450575" />
+    <state width="637" height="211" key="GridCell.Tab.1.right" timestamp="1589995450576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589730481283" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587466724626">
+    <state width="637" height="211" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589995450576" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589995422972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587466724626" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589995422972" />
     <state x="112" y="63" key="new project wizard" timestamp="1585647829972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="112" y="63" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585647829972" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/dankovtsev/agriculture/model/SoilMoisture.java</url>
+          <line>20</line>
+          <properties field="water" class="ru.dankovtsev.agriculture.model.SoilMoisture" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
